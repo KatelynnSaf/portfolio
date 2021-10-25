@@ -1,0 +1,82 @@
+/*universal sizing and formatting for webpage*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.text-centered {
+  text-align: center;
+}
+/*page background*/
+.dark-background {
+  background-color: plum;
+  color: white;
+}
+/*accent coloring*/
+.light-background {
+  background-color: plum;
+  
+}
+/*wrapping for webpage layout*/
+.wrapper {
+  width: 50%;
+  border:5px;
+  margin: auto;
+}
+/*image formatting*/
+img {
+  border-radius: 8px;
+  width: 200px;
+  display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+/*clickable link changes to the color purple when hovering over it*/
+a:hover {
+  color: purple;
+}
+body {
+  margin: 0;
+  background-color: pink;
+  
+}
+
+h1 {
+  font-size: 52px;
+  border-bottom: 3px;
+  padding-bottom: 4px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+/*grouped classing*/
+h1, h2, h3, p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: purple;
+  text-align: center;
+}
+ul, li, ol {
+  color: purple;
+  text-align: center;
+  list-style: inside;
+  padding: 4px;
+}
+/*diamond styled page break*/
+hr {
+  width: 15px;
+  height: 15px;
+  border: none;
+  background: white;
+  color:hotpink;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+footer {
+  text-align:center;
+}
